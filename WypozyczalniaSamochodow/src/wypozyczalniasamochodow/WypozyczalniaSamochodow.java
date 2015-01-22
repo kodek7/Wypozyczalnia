@@ -17,6 +17,7 @@ public class WypozyczalniaSamochodow {
         
         p1.wypozycz();
         p2.wypozycz();
+        p2.zwroc();
         
     }
     

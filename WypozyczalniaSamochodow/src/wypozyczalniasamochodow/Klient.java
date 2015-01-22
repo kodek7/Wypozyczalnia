@@ -35,12 +35,6 @@ public class Klient {
      this.Pesel=0;
     }//public klienci
     
-    public int wypozycz(){
-        return 0;
-    }
-    
-    public int zwroc (){
-        return 0;
-    }
+
     
 }//public class Klienci

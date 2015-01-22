@@ -10,7 +10,7 @@ package wypozyczalniasamochodow;
  *
  * @author Przemysław Chudzik
  */
-public class Pojazd {
+public class Pojazd extends Klient{
     private String marka;
     private String model;
     private int rokProdukcji;
