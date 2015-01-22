@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package wypozyczalniasamochodow;
 
 /**
@@ -16,7 +10,8 @@ public class WypozyczalniaSamochodow {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Pojazd ob = new Pojazd();
+        Pojazd ob2 = new Pojazd("renault"," megane", 2014, 1234, "LU12345");
     }
     
 }
