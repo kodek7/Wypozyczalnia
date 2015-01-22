@@ -15,16 +15,14 @@ public class Klient {
     //pola
     private String Imie;
     private String Nazwisko;
-    private String Miejsowosc;
     private String Adres;
     private int Pesel;
     
     //konstruktor
-    public Klient(String Imie, String Nazwisko, String Miejscowosc, String Adres, int Pesel)
+    public Klient(String Imie, String Nazwisko, String Adres, int Pesel)
     {
         this.Imie=Imie;
         this.Nazwisko=Nazwisko;
-        this.Miejsowosc=Miejscowosc;
         this.Adres=Adres;
         this.Pesel=Pesel;
     }//public Klienci
@@ -34,7 +32,15 @@ public class Klient {
      this.Adres="nieznany";
      this.Imie="brak";
      this.Nazwisko="brak";
-     this.Miejsowosc="brak";
      this.Pesel=0;
     }//public klienci
+    
+    public int wypozycz(){
+        return 0;
+    }
+    
+    public int zwroc (){
+        return 0;
+    }
+    
 }//public class Klienci

@@ -33,4 +33,6 @@ public class Pojazd {
         this.rokProdukcji = 2000;
         this.nrSeryjny = 123456789;    
     }
+    
+   
 }//public class Pojazd
