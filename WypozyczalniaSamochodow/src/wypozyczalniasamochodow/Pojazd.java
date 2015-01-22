@@ -34,5 +34,12 @@ public class Pojazd {
         this.nrSeryjny = 123456789;    
     }
     
+    public int wypozycz(){
+        return 0;
+    }
+    
+    public int zwroc (){
+        return 0;
+    }
    
 }//public class Pojazd
